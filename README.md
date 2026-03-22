@@ -34,16 +34,14 @@ An AI-powered platform that extracts and analyzes medical information from unstr
 
 ---
 
-## 🧪 Demo
+## 📸 Output Screenshots
 
-### 📊 NLP Analysis Output
-![NLP Output](screenshot1.png)
-
-### 🧩 Knowledge Graph Visualization
-![Knowledge Graph](screenshot2.png)
-
-### 🔎 Semantic Search
-![Semantic Search](screenshot3.png)
+![Dashboard](output/main_dashboard.png)
+![Data Collection](output/DataCollection.png)
+![NLP Analysis](output/NLP_Analysis.png)
+![Knowledge Graph](output/neo4jDash.png)
+![Semantic Search](output/SemanticSearch.png)
+![Cross Domain](output/CrossDomain.png)
 
 ---
 
