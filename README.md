@@ -1,21 +1,69 @@
-# Health Data NLP Platform
+# 🧠 Health Data NLP Platform
 
-AI-powered platform to extract and analyze medical data from text.
+An AI-powered platform that extracts and analyzes medical information from unstructured text using Natural Language Processing and Machine Learning.
 
-## Features
-- Medical entity extraction
-- Relationship extraction
-- Knowledge graph visualization
-- Semantic search
+---
 
-## Tech Stack
-- Python
-- Streamlit
-- spaCy
-- Transformers
-- NetworkX
+## 🚀 Features
 
-## Run Locally
+- 🔍 **Medical Entity Extraction**
+  - Detects diseases, symptoms, medications, and procedures
+
+- 🔗 **Relationship Extraction**
+  - Identifies relationships between entities (e.g., treatment, causes)
+
+- 🧩 **Knowledge Graph Visualization**
+  - Converts extracted data into structured graph format
+
+- 🔎 **Semantic Search**
+  - Retrieves relevant medical information based on meaning (not just keywords)
+
+- 🔐 **User Authentication**
+  - Secure login and registration system
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Streamlit  
+- **Backend**: Python  
+- **NLP Libraries**: spaCy, Transformers  
+- **ML Models**: Sentence-BERT  
+- **Graph Processing**: NetworkX  
+- **Database**: SQLite  
+
+---
+
+## 🧪 Demo
+
+### 📊 NLP Analysis Output
+![NLP Output](screenshot1.png)
+
+### 🧩 Knowledge Graph Visualization
+![Knowledge Graph](screenshot2.png)
+
+### 🔎 Semantic Search
+![Semantic Search](screenshot3.png)
+
+---
+
+## ⚙️ Installation & Setup
+
 ```bash
+# Clone repository
+git clone https://github.com/your-username/health-nlp-platform.git
+
+# Go to project folder
+cd health-nlp-platform
+
+# Create virtual environment
+python3.11 -m venv venv
+
+# Activate environment
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-streamlit run app.py
+
+# Run the app
+python -m streamlit run app.py
